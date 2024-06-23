@@ -346,6 +346,7 @@ FindLocations:
             destinations:
             -   keyword: Greater Faydark
                 targetZone: gfaydark
+
     elddar:
         -   type: ZoneConnection
             switch: OBJ_TELEPORT
@@ -508,6 +509,10 @@ FindLocations:
             name: Nexus Scion
             keyword: journey to Luclin
             targetZone: nexus
+        -   type: Translocator
+            name: '#Translocator Jeeves'
+            keyword: East Commonlands Tunnel
+            targetZone: ecommons
         -   type: ZoneConnection
             location: [-2640, -1110.47, 3]
             targetZone: lfaydark
@@ -817,6 +822,9 @@ FindLocations:
         -   type: ZoneConnection
             location: [-773.90, 3841.95, -0.84]
             targetZone: mmca
+        -   type: ZoneConnection
+            location: [-1090.90, 3360.95, -0.84]
+            targetZone: mistmoore
     lichencreep:
         -   type: ZoneConnection
             switch: 19
